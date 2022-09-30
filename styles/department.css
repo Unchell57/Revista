@@ -1,0 +1,64 @@
+@import url(../style.css);
+
+header .subheader {
+	text-align: right;
+	font: 400 italic 50rem Lato, sans-serif;
+	position: relative;
+	right: 34.5%; bottom: 22rem;
+}
+button,
+a.view-button {
+	bottom: 40rem; right: 25%;
+	padding: 7rem 35rem;
+	color: #000;
+	font: 700 19rem Montserrat, sans-serif;
+	background: #fff;
+	border: 1.5rem solid #ccc;
+}
+button:not(button[disabled]):hover,
+a.view-button:hover {
+	background: #222;
+	color: #fff;
+	transition: .1s;
+	cursor: pointer;
+}
+
+/* BOOKS  */
+button.without-product {
+	display: block;
+	margin: 30rem auto;
+	padding: 20rem 60rem;
+	font-size: 36rem;
+}
+.published-book h2 {
+	margin-top: 30rem;
+}
+.books {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	justify-items: center;
+	row-gap: 40rem;
+	margin-top: 45rem;
+	margin-bottom: 30rem;
+}
+.book {
+	box-sizing: border-box;
+	width: 25%;
+	min-height: 250rem;
+	min-width: 250rem;
+	font-size: 12px;
+	text-align: center;
+	background: #eee;
+	padding: 25rem;
+	padding-bottom: 15rem;
+	margin-bottom: 20rem;
+}
+.book .title {
+	font: 700 22rem Montserrat, sans-serif;
+	margin: 75rem 0;
+}
+.book .desciption {
+	text-align: justify;
+	font: 400 14rem Montserrat, sans-serif;
+	margin-bottom: 17rem;
+}

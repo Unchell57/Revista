@@ -1,0 +1,6 @@
+@import url(../style.css);
+
+.message:hover {
+	cursor: pointer;
+	background: #bbb;
+}

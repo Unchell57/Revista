@@ -1,0 +1,149 @@
+@import url(reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+
+
+html {
+	font-size: 1px;
+}
+a {
+	text-decoration: none;
+}
+
+input,
+textarea {
+	outline: none;
+}
+input:focus,
+textarea:focus {
+	border: #000 solid 1rem;
+}
+input::placeholder,
+textarea::placeholder {
+	transition: .3s;
+}
+input:focus::placeholder,
+textarea:focus::placeholder {
+	font-size: 10rem;
+	line-height: 14rem;
+	transform: translateY(-85%);
+}
+
+/* PATTERNS  */
+.separator {
+
+}
+.returnAnch a {
+	color: #000;
+	border-radius: 3rem;
+	padding: 0 10rem;
+}
+.returnAnch a:hover {
+	cursor: pointer;
+	color: #fff;
+	background: #000;
+	transition: .5s;
+}
+
+/* ---- HEADER ----  */
+
+header h1 {
+	text-align: center;
+	font: 700 115rem Lato, sans-serif;
+}
+/* description */
+.description {
+	font: 400 20rem Montserrat, sans-serif;
+	text-align: justify;
+	text-align-last: center;
+	background: #eee;
+	box-sizing: border-box;
+	width: 70%;
+	padding: 20rem 40rem;
+	margin: 15rem auto 20rem;
+}
+.section.description {
+	background: transparent;
+	width: 60%;
+	font-size: 18rem;
+	margin-top: 0;
+	padding-top: 10rem;
+}
+
+
+/* ---- MAIN ---- */
+
+.header {
+	text-align: center;
+	font: 400 italic 60rem Montserrat, sans-serif;
+}
+header .subheader {
+	text-align: right;
+	font: 400 italic 50rem Lato, sans-serif;
+	position: relative;
+	right: 32.5%; bottom: 20rem;
+}
+.departments {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-between;
+	margin-top: 25rem;
+}
+.department {
+	position: relative;
+	width: 215rem; height: 215rem;
+	padding: 20rem;
+	margin-bottom: 30rem;
+	background: #222;
+}
+.department:hover {
+	background: #ccc;
+	transition: .2s;
+}
+.department:hover a {
+	color: #000;
+	transition: .2s;
+}
+.department.disabled:hover {
+	background: #222;
+}
+.department.disabled:hover a {
+	color: #fff;
+	cursor: default;
+}
+.department h3 {
+	font: 700 28rem Montserrat, sans-serif;
+	position: relative;
+	top: calc(50% - 16rem);
+	text-align: center;
+}
+.department.disabled h3 {
+	font-style: italic;
+	color: #666;
+}
+.department a {
+	display: block;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	color: #fff;
+}
+
+/* MEDIA  */
+
+@media screen and (min-width: 2000px) {
+	html {
+		font-size: 1.5px;
+	}
+}
+@media screen and (max-width: 426px) {
+	html {
+		font-size: .85px;
+	}
+}
+@media screen and (max-width: 321px) {
+	html {
+		font-size: .7px;
+	}
+}

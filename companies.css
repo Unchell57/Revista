@@ -1,0 +1,75 @@
+@import url(../style.css);
+
+main {
+	margin: 0 5% 25rem;
+}
+.logo {
+	float: left;
+	padding: 15rem;
+	margin: 0 25rem 5rem 0;
+	background: transparent;
+}
+.logo img {
+	display: block;
+	max-width: 100%;
+}
+article {
+	padding: 50rem 50rem;
+	background: #e6e6e6;
+	text-align: justify;
+	font: 400 21rem/27rem Montserrat, sans-serif;
+}
+.company-paragraph {
+	margin-bottom: 30rem;
+}
+.company-paragraph:last-child {
+	margin-bottom: 0;
+}
+strong {
+	font-weight: 700;
+	font-size: 23rem;
+}
+.image {
+	margin-bottom: 30rem;
+	overflow: hidden;
+}
+.image img {
+	display: block;
+	margin: auto;
+	max-width: 100%;
+	height: auto;
+}
+.article-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 30rem 0;
+}
+.article-table caption {
+	font-weight: 700;
+	font-size: 21rem;
+	margin-bottom: 20rem;
+}
+.article-table th {
+	font-weight: 500;
+	font-size: 20rem;
+	padding-right: 5rem;
+	padding-bottom: 10rem;
+	border-bottom: 1.5rem solid #000;
+}
+.article-table tr:nth-child(2+n) td {
+	padding-top: 25rem;
+	padding-bottom: 10rem;
+}
+.article-table td {
+	padding-right: 10rem;
+	font-size: 18rem;
+}
+.article-table td:last-child {
+	padding: 0;
+}
+
+@media screen and (max-width: 575px) {
+	header h1 {
+		font-size: 75rem;
+	}
+}

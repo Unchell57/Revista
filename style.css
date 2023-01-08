@@ -80,13 +80,13 @@ header h1 {
 .header {
 	text-align: center;
 	font: 400 italic 60rem Montserrat, sans-serif;
-	margin-bottom: 15rem;
 }
 header .subheader {
 	text-align: right;
 	font: 400 italic 50rem Lato, sans-serif;
 	position: relative;
 	right: 32.5%; bottom: 20rem;
+	margin-top: 15rem;
 }
 .departments {
 	display: flex;

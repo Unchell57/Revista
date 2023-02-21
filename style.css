@@ -54,6 +54,7 @@ textarea:focus::placeholder {
 header h1 {
 	text-align: center;
 	font: 700 115rem Lato, sans-serif;
+	word-wrap: break-word;
 }
 /* description */
 .description {
@@ -65,6 +66,7 @@ header h1 {
 	width: 70%;
 	padding: 20rem 40rem;
 	margin: 15rem auto 20rem;
+	word-wrap: break-word;
 }
 .section.description {
 	background: transparent;
@@ -80,6 +82,7 @@ header h1 {
 .header {
 	text-align: center;
 	font: 400 italic 60rem Montserrat, sans-serif;
+	word-wrap: break-word;
 }
 header .subheader {
 	text-align: right;

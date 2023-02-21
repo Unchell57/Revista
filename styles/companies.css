@@ -31,8 +31,8 @@ strong {
 	font-size: 23rem;
 	white-space: nowrap;
 }
-strong:last-child {
-	white-space: wrap;
+strong:last-of-type {
+	word-wrap: break-word;
 }
 .image {
 	margin-bottom: 30rem;

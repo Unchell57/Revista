@@ -21,6 +21,7 @@ article {
 }
 .company-paragraph {
 	margin-bottom: 30rem;
+	word-wrap: break-word;
 }
 .company-paragraph:last-child {
 	margin-bottom: 0;
@@ -28,6 +29,7 @@ article {
 strong {
 	font-weight: 700;
 	font-size: 23rem;
+	white-space: nowrap;
 }
 .image {
 	margin-bottom: 30rem;

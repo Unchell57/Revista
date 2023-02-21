@@ -32,7 +32,7 @@ strong {
 	white-space: nowrap;
 }
 strong:last-of-type {
-	word-wrap: break-word;
+	white-space: normal;
 }
 .image {
 	margin-bottom: 30rem;

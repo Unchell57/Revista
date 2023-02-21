@@ -31,6 +31,9 @@ strong {
 	font-size: 23rem;
 	white-space: nowrap;
 }
+strong:last-child {
+	white-space: wrap;
+}
 .image {
 	margin-bottom: 30rem;
 	overflow: hidden;

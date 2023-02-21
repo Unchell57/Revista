@@ -141,9 +141,9 @@ header .subheader {
 		font-size: 1.5px;
 	}
 }
-@media screen and (min-width: 770px) {
+@media screen and (max-width: 770px) {
 	.department {
-		width: 40%; height: 200rem;
+		width: 35%; height: 200rem;
 	}
 }
 @media screen and (max-width: 426px) {

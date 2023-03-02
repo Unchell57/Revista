@@ -17,7 +17,7 @@ article {
 	padding: 50rem 50rem;
 	background: #e6e6e6;
 	text-align: justify;
-	font: 400 21rem/27rem Montserrat, sans-serif;
+	font: 400 19rem/26rem Montserrat, sans-serif;
 }
 .company-paragraph {
 	margin-bottom: 30rem;
@@ -28,7 +28,7 @@ article {
 }
 strong {
 	font-weight: 700;
-	font-size: 23rem;
+	font-size: 21rem;
 	white-space: nowrap;
 }
 strong:last-of-type {

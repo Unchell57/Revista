@@ -12,6 +12,12 @@ main {
 .logo img {
 	display: block;
 	max-width: 100%;
+	margin: auto;
+}
+.capit {
+	text-align: center;
+	font: 800 italic 24rem/36rem Montserrat, sans-serif;
+	padding-top: 5rem;
 }
 article {
 	padding: 50rem 50rem;
